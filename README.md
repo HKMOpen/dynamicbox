@@ -44,6 +44,7 @@ Usage
 ```
 DynamicBox box = new DynamicBox(this,view);
 ```
+
 *`this` : refers to the current Activity*  
 *`view` : refers to the target view, eg a ListView or a layout*
 
@@ -91,6 +92,11 @@ box.showCustomView("greenmonster");
 box.setLoadingMessage("Loading your music ...");
 ```
 
+
+### Thank you for your support and we will bring more amazing libraries to your productive works. We are accepting bitcoin by the address as below. Please scan the QR code to start
+![wallet](http://s32.postimg.org/sdd1oio1t/qrwallet.jpg)
+
+
 See the example project for more details : [Sample](raw/master/DynamicBoxExample/src/main/java/mehdi/sakout/dynamicboxexample/)
 
 Apps using DynamicBox  
@@ -106,9 +112,6 @@ El Mehdi Sakout <elmehdi.sakout@gmail.com>
 Resources
 ---------------------
 Thanks to [IconKa](http://www.iconka.com) for the cat icon.
-
-### Thank you for your support and we will bring more amazing libraries to your productive works. We are accepting bitcoin by the address as below. Please scan the QR code to start
-![wallet](http://s32.postimg.org/sdd1oio1t/qrwallet.jpg)
 
 
 License
