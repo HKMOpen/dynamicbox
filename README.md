@@ -34,14 +34,16 @@ __Supports:__
 Including in your project : Gradle
 ---------------------
 
-```dependencies {
+```gradle
+dependencies {
       compile project(':DynamicBox')
-   }```
+   }
+```
 
 Usage
 ---------------------
 
-```
+```java
 DynamicBox box = new DynamicBox(this,view);
 ```
 
@@ -53,14 +55,14 @@ Example
 
 - View
 
-```
+```java
 ListView lv = (ListView)findViewById(R.id.listView);    
 DynamicBox box = new DynamicBox(this,lv);
 ```
 
 - Layout id
 
-```
+```java
 DynamicBox box = new DynamicBox(this,R.layout.activity_activity);
 ```
 _____
